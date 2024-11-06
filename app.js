@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Generate User List
     function generateUserList(users, stocks) {
-        const userList = document.querySelector('.user-list');
-        userList.innerHTML = '';
+      const userList = document.querySelector('.user-list');
+      userList.innerHTML = '';
     
         users.map(({ user, id }) => {
           const listItem = document.createElement('li');
